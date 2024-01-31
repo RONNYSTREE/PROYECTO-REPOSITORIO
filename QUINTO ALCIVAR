@@ -1,0 +1,21 @@
+Algoritmo sin_titulo
+	Escribir "Ingresa tus horas trabajadas";
+	leer a
+	Escribir "Ingresa tu paga por hora";
+	leer b
+	c<-a*b;
+	Escribir "valor obtenido"
+	Escribir c
+	Escribir ""
+	si c>=60 Entonces
+	Escribir "Tienes un bono de 50 dolares";
+	n<-c+50;
+	Escribir n
+    SiNo
+	si c<60 Entonces
+		Escribir "Tienes un bono de 10 dolares";
+			m<-c+10;
+			escribir m
+		FinSi
+	FinSi
+FinAlgoritmo
